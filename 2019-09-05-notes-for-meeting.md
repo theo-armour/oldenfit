@@ -43,8 +43,8 @@ _Started but never completed, but text may be useful as material for future note
 	* Every 3 minutes do a little move at desk
 
 
-## Tech things looking into
 
-* Google Fit data
-* getluna.com
+***
+
+# <center title="hello!" ><a href=javascript:window.scrollTo(0,0); style=text-decoration:none; > ❦ </a></center>
 

@@ -76,5 +76,12 @@ Thoughts
 
 When I try to change the way I do things, I seek to keep in mind the above considerations.
 
+## Tech things looking into
+
+* Google Fit data
+* getluna.com
+* Looking for room-based motion detector. Voices message to do a random routine when I am near
+
 ***
 
+# <center title="hello!" ><a href=javascript:window.scrollTo(0,0); style=text-decoration:none; > ❦ </a></center>
