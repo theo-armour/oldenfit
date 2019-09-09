@@ -1,26 +1,28 @@
-### 2019-09-05 ~ Notes for meeting with Dr Lise McCarthy
+# 2019-09-05 ~ Notes for meeting with Dr Lise McCarthy
 
-### Objectives
+_Started but never completed, but text may be useful as material for future notes._
+
+## Fitness objectives
 
 * Not trying to break records or even improve, just want to stay reasonably fit
-* Estabkish routines that work for me in my home
+* Establish routines that work for me in my home
 * Could work for next, say, five years
 
-### Strategies
+## Strategies
 
-* A quilfied person to talk to on a regular basis
+* A qualified person to talk to on a regular basis
 
-### History needed
+## History wanted?
 
 * Contacts with Dr Erica Pitsch / UCSF?
 * Medical history
 * Bio
 
-### Communications
+## Communications
 
+* Email OK?
 
-
-### Getting up
+## Current getting up routines
 
 * 10 hip-ups
 * 5 leg raises
@@ -29,18 +31,19 @@
 * 10 squats
 * Wiggle while brushing teeth
 * Do the dishes while dancing
-* 1 to 3 minute dedicated dance
+* 1 to 3 minute dedicated dancing
 
-### During the day
+## During the day
 
-* 5,000 steps
-* Heart rate
-* 18 minutes
-* 3 Minuts
+* Try for 5,000 steps
+	* 8,000 is really nice
+	* Below 3,000 sucks
+* Scheduled - but many misses
+	* Every 18 minutes get up from desk for a minute or two
+	* Every 3 minutes do a little move at desk
 
 
-
-## Tech
+## Tech things looking into
 
 * Google Fit data
 * getluna.com
