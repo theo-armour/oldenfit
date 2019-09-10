@@ -74,6 +74,11 @@ Thoughts
 * In terms of [Maslow's Hierachy of Needs]( https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs ), my pyramid is quite full
 * I love and am loved
 
+<marK>Added 2019-09-09</mark>
+
+* I am very much of a night owl - to bed at 2 or 3 - wake at 10-ll
+* I currently am having occasional issues with body tingling and eyes feeling heavy
+
 When I try to change the way I do things, I seek to keep in mind the above considerations.
 
 ## Tech things looking into
