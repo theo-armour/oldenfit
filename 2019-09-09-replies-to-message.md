@@ -1,9 +1,7 @@
-R Replies to message
+# Replies to message
 
 
-> Thank you sharing your thoughts with me; they help me understand you a
-little better so I can be a better support/resource for you. I think you
-are mostly on track.
+> Thank you sharing your thoughts with me; they help me understand you a little better so I can be a better support/resource for you. I think you are mostly on track.
 
 And thank you for your speedy and engaged reply.
 
@@ -30,4 +28,5 @@ On the other hand, not that I have one, I do also understand that there is more 
 
 And I hope you will guide me on this journey.
 
-
+***
+# <center title="hello!" ><a href=javascript:window.scrollTo(0,0); style=text-decoration:none; > ❦ </a></center>
