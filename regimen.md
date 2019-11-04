@@ -1,5 +1,10 @@
 # Regimen
 
+## Objectives
+
+* Not trying to break records or even improve, just want to stay reasonably fit
+* Establish routines that work for me in my home
+* Could work for next, say, five years
 
 ## Getting up / The Morning Dance
 
@@ -29,7 +34,8 @@
 
 ### During the day
 
+* remember to blink the eyes
 * 5,000 steps
 * Heart rate
 * 18 minutes
-* 3 Minuts
+* 3 Minutes
