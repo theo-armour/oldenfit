@@ -3,17 +3,18 @@
 ## 2019-11-04
 
 * Morning workout regimen well done
-* Added and started journal and regimen files
-
+* Added and started journal and regimen and other files
+* Need to update TooToo CMS
+* Add climbing starts to the daily routines
 
 ## 2019-11-01
 
 * create an email group called oldnfit@ta.groups.io
 * invite members to people to join as members
 * send a message every week
-* offer to pay people to read messag
+* offer to pay people to read message
 * Offer a $200 retainer payable via PayPal or Venmo
-* To be recharged wnever requested - susggest after 10 to 20 readings
+* To be recharged whenever requested - suggest after 10 to 20 readings
 * Draft invite message
 * Draft objectives and publish
 
