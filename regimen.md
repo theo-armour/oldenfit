@@ -3,8 +3,8 @@
 ## Objectives
 
 * Not trying to break records or even improve, just want to stay reasonably fit
-* Establish routines that work for me in my home - and could work on the raod
-* Within my personal capapabilties for the next, say, five years
+* Establish routines that work for me in my home - and could work while on the road
+* Within my personal capabilities for the next, say, five years
 
 ## Getting up / The Morning Dance
 
@@ -18,10 +18,12 @@ The following are routines that I'm doing
 Every day since July 2019
 
 ### While at the toilet
+
 * 10 turn head to look up and look down
 * 10 turn head to left look and look right
 
 ### In the shower
+
 * 10 squats
 * Touch the toes
 
@@ -40,6 +42,8 @@ Every day since July 2019
 
 * remember to blink the eyes
 * 5,000 steps
+* 45 minutes per day
+* 20+ heart minutes per day
 * Heart rate
 * 18 minutes
 * 3 Minutes

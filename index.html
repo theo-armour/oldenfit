@@ -3,115 +3,170 @@
 <head>
 <meta charset = "utf-8" >
 <meta name = "viewport" content= "width=device-width, initial-scale=1" >
-<meta name = "description" content = "It's about getting better with age" >
+<meta name = "description" content = "The best is yet to be - for you and for me - yippee!" >
 <meta name = "keywords" content = "JavaScript,GitHub,FOSS" >
-<meta name = "date" content = "2019-09-08" >
+<meta name = "date" content = "2019-11-05" >
 <meta name = "version" content = "0.0.0" >
-<title>OldenFit</title>
+<title>oldenfit</title>
 <style>
-
-	* { box-sizing: border-box; }
 
 	:root { --mnu-width: 22rem; --screen-width: calc( 100vw ); --headerHeight: 6rem; }
 
-	html { height: 100%; }
+	* { box-sizing: border-box; }
 
-	body { font: 12pt monospace; margin: 0 auto; max-width: 800px; padding: 0 0.5rem; }
+	body { font: 12pt monospace; }
 
 	a { color: crimson; text-decoration: none; }
 	a:hover, a:focus, a:active { background-color: yellow; color: #aaa; text-decoration: underline }
 
-	blockquote { background-color: #eee; padding: 1rem; }
-
 	button, input[type=button] { background-color: #ddd; border: none; color: #322; cursor: pointer; padding: 3px 5px; }
 	button:hover { background: #ccc; color: #fff }
 
+	center { font-size: 2ch; }
 
-	#main { border: 0px; height: 100%; left: var( --mnu-width ); margin: 0;
+	#main { border: 0px; left: var( --mnu-width ); margin: 0;
 		padding: 0 3rem; position: absolute; width: calc( 100% - var( --mnu-width ) );  }
 
-	#divContents { border: 0px solid red; margin: 0 auto; max-width: 40rem; }
+	#divContent { border: 0px solid red; margin: 0 auto; max-width: 40rem; }
 
 	#navMenu { background-color: #eee; height: 100%; left: 0; margin: 0; overflow: auto;
-		padding: 0 1rem; position: fixed; transition: left 0.5s; top: 0; width: var( --mnu-width ); }
+		padding: 0 1rem; position: fixed; transition: left 0.5s; top: 0; width: var( --mnu-width ); z-index: 1; }
 
-	#expandButton { height: 32px; position: fixed; left: var( --mnu-width ); top: 0px;
+	#expandButton { height: 32px; position: absolute; left: var( --mnu-width ); top: 2ch;
 		transition: left 0.5s; width: 32px; z-index: 1; }
+
 
 	#expandButton.collapsed { left: 0; }
 	#navMenu.collapsed { left: calc( var( --mnu-width ) * -1 ); padding: 0; }
 	#main.collapsed { left: 0; width: 100%; }
 
+
+
+/* media */
+
+@media all and (max-width: 640px) {
+	#main {
+		left: 0;
+		padding: 0 1rem;
+		width: 100%;
+	}
+
+	#expandButton {
+		top: 90vh
+	}
+}
+
+@media all and (max-height: 640px) {
+	#main {
+		left: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#expandButton {
+		top: 90vh;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		background-color: #1e1f23;
+		color: #aaa;
+	}
+	#navMenu { background-color: #555; }
+}
+
 </style>
 </head>
 <body>
-<script src = "https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js" ></script>
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js" ></script>
 
 
-<!-- File menu panel -->
-<script src = "https://pushme-pullyou.github.io/tootoo14/js-14-08/fga-files-github-api/v-0-02/fga-files-github-api.js" ></script>
-<script src = "https://pushme-pullyou.github.io/tootoo14/js-14-08/foh-file-open-hash/foh-files-open-hash.js" ></script>
+<script src = "src/fga-files-github-api.js" ></script>
+<script src = "src/foh-files-open-hash.js" ></script>
 
 
-
-	<button id="expandButton" onclick="toggleNavPanel();" >☰</button>
+	<button id="expandButton" onclick="toggleNavMenu();" >☰</button>
 
 	<nav id="navMenu" >
 
-		<div id="divTitle" ></div>
+		<header id="hdrTitle" ></header>
 
-		<div id="FGAdivMenuRepoFilesFolders" ></div>
+		<details open>
 
-		<div id="GATdivGithubAccessToken" ></div>
+			<summary class="sumMenuTitle" >GitHub folders & files</summary>
 
+			<div id="FGAdivMenuRepoFilesFolders" ></div>
 
-		<hr>
+			<div id="GATdivGithubAccessToken" ></div>
 
-	<center title="hello!" ><a href=javascript:window.scrollTo(0,0); style=text-decoration:none; > ❦ </a></center>
+		</details>
+
+		<footer>
+
+			<p>Click any <a href=https://github.com/theo-armour/oldenfit ><img src=src/github-mark-32.png alt="github logo" height=18 style=opacity:0.5 > </a> icon to view source code on GitHub.
+
+			<p>Click any &#x2750; icon to go full screen & obtain a link to the individual file.</p>
+
+			<!-- <p>Tooltips provide file size.</p> -->
+
+			<hr>
+
+			<center title="hello! click me to go up to the top"><a href=javascript:navMenu.scrollTo(0,0); style=text-decoration:none; > ❦ </a></center>
+
+		</footer>
 
 
 	</nav>
 
 	<main id=main >
 
-		<div id="divContents" ></div>
+		<div id="divContent" ></div>
 
 	</main>
 
 
 <script>
 
-const urlSourceCode = "https://github.com/theo-armour/oldenfit";
+const COR = {};
+
+COR.branch = "master";
+COR.user = "theo-armour";
+COR.repo = "oldenfit";
+COR.pathRepo = "";
+
+COR.uriDefaultFile = "README.md";
+
+COR.ignoreFolders = ["0-templates-readme", "archive", "data", ".github"];
+
+COR.ignoreFiles = [".gitattributes", ".gitignore", ".nojekyll", "404.html", "index.html", "favicon.ico" ];
+
+
+const urlSourceCode = `https://github.com/${ COR.user }/${ COR.repo }/tree/${ COR.branch }/${ COR.pathRepo }`;
+
+
 
 init();
 
+
 function init() {
 
-	divTitle.innerHTML = getTitle();
+	hdrTitle.innerHTML = getTitle();
 
-	FGA.branch = '/master/';
-	FGA.user = 'theo-armour';
-	FGA.repo = 'oldenfit';
-	FGA.pathRepo = '';
+	FOH.target = divContent;
 
-	FGA.urlGitHubPage = "";
 	FGAdivMenuRepoFilesFolders.innerHTML = FGA.getMenuFilesGithubApi();
 
-	FGA.getFiles(); // move to js?
-
-	FOH.urlDefaultFile = "README.md";
-
-	FOH.target = divContents;
+	FGA.onHashChange();
 
 	FOH.onHashChange();
 
-	window.addEventListener ( 'hashchange', FOH.onHashChange, false );
+	if ( window.innerHeight < 640 || window.innerWidth < 640 ) { toggleNavMenu(); }
 
 }
 
 
-function toggleNavPanel() {// move to COR??
+function toggleNavMenu() {
 
 	expandButton.classList.toggle( 'collapsed' );
 	navMenu.classList.toggle( 'collapsed' );
@@ -122,16 +177,13 @@ function toggleNavPanel() {// move to COR??
 
 function getTitle() {
 
-	const urlSourceCodeIcon = "https://pushme-pullyou.github.io/github-mark-32.png";
-
-	document.title = document.title ? document.title : location.href.split( '/' ).pop().slice( 0, - 5 ).replace( /-/g, ' ' );
 	const version = document.head.querySelector( "[ name=version ]" ).content;
 
 	const htm =
 	`
 		<h2>
 			<a href=${ urlSourceCode } target=_top title="Source code on GitHub" >
-				<img src=${ urlSourceCodeIcon } height=18 style=opacity:0.5; >
+				<img src="src/github-mark-32.png" alt="GitHub logo" height=18 style=opacity:0.5; >
 			</a>
 			<a href="" title="Click to reload this page" >${ document.title } ${ version }</a>
 		</h2>
