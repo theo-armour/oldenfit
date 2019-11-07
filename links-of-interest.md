@@ -43,8 +43,7 @@ _This is just a quick start. Will also be looking for academic articles of inter
 
 ## New York Times
 
-* [Aerobic Fitness May Trump Strength for Metabolic Health](
-https://www.nytimes.com/2019/09/04/well/move/aerobic-fitness-may-trump-strength-for-metabolic-health.html )
+* [Aerobic Fitness May Trump Strength for Metabolic Health]( https://www.nytimes.com/2019/09/04/well/move/aerobic-fitness-may-trump-strength-for-metabolic-health.html )
 	> Endurance affects metabolism substantially more than muscular strength does, a new study suggests.
 	* https://www.physiology.org/doi/abs/10.1152/physrev.00035.2018
 	* https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2748657
