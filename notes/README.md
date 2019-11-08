@@ -1,12 +1,16 @@
-<span style=display:none; >[You are now in a GitHub source code view - click this link to view Read Me file as a web page]( https://zzzzz.github.io/#zzzzz/README.md "View file as a web page." ) </span>
+<span style=display:none; >[You are now in a GitHub source code view - click this link to view Read Me file as a web page]( https://theo-armour.github.io/oldenfit/#notes/README.md "View file as a web page." ) </span>
 
-# ZZZZZ Read Me
+# notes Read Me
 
 
 <details open >
 
 <summary>Concept</summary>
 
+Background material
+
+* Notes from meetings
+* Text from emails
 
 </details>
 
@@ -28,7 +32,7 @@
 
 <summary>Change Log</summary>
 
-### DDDDD
+### 2019-11-07 ~ Theo
 
 * F - First commit
 
