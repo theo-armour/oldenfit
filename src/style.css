@@ -14,6 +14,8 @@
 
 	center { font-size: 2ch; }
 
+	summary { font-weight: bold; }
+
 	#main { border: 0px; left: var( --mnu-width ); margin: 0;
 		padding: 0 3rem; position: absolute; width: calc( 100% - var( --mnu-width ) );  }
 
@@ -22,7 +24,7 @@
 	#navMenu { background-color: #eee; height: 100%; left: 0; margin: 0; overflow: auto;
 		padding: 0 1rem; position: fixed; transition: left 0.5s; top: 0; width: var( --mnu-width ); z-index: 1; }
 
-	#expandButton { height: 32px; position: absolute; left: var( --mnu-width ); top: 2ch;
+	#expandButton { height: 32px; position: fixed; left: var( --mnu-width ); top: 2ch;
 		transition: left 0.5s; width: 32px; z-index: 1; }
 
 

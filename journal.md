@@ -1,5 +1,10 @@
 # Journal
 
+# 2019-11-07
+
+* Installed latest TooToo CMS - fingers crossed it's OK
+* Need to think about adding diet and nutrition
+
 ## 2019-11-04
 
 * Morning workout regimen well done

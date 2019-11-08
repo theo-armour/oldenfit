@@ -7,16 +7,17 @@ _This is just a quick start. Will also be looking for academic articles of inter
 <details open>
 
 <summary>Public institutes</summary>
-## https://www.ncoa.org/
+
+### https://www.ncoa.org/
 
 * https://www.ncoa.org/center-for-healthy-aging/basics-of-evidence-based-programs/physical-activity-programs-for-older-adults/
 
 
-## https://www.who.int/
+### https://www.who.int/
 
 * https://www.who.int/dietphysicalactivity/factsheet_olderadults/en/
 
-## https://www.nhs.uk/
+### https://www.nhs.uk/
 
 * https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-older-adults/
 
@@ -25,11 +26,12 @@ _This is just a quick start. Will also be looking for academic articles of inter
 <details open>
 
 <summary>Online organizations</summary>
-## https://darebee.com
+
+### https://darebee.com
 
 * https://darebee.com/posters.html
 
-## https://www.silversneakers.com/
+### https://www.silversneakers.com/
 
 * https://www.silversneakers.com/blog/best-exercise-older-adults/
 
@@ -41,7 +43,7 @@ _This is just a quick start. Will also be looking for academic articles of inter
 
 <summary>Articles</summary>
 
-## New York Times
+### New York Times
 
 * [Aerobic Fitness May Trump Strength for Metabolic Health]( https://www.nytimes.com/2019/09/04/well/move/aerobic-fitness-may-trump-strength-for-metabolic-health.html )
 	> Endurance affects metabolism substantially more than muscular strength does, a new study suggests.
@@ -61,9 +63,7 @@ _This is just a quick start. Will also be looking for academic articles of inter
 </details>
 
 
-<details open>
-
-<summary>Articles on sitting</summary>
+### Articles on sitting
 
 
 * https://www.nytimes.com/2011/04/17/magazine/mag-17sitting-t.html?_r=1&src=me&ref=homepage
@@ -77,20 +77,26 @@ _This is just a quick start. Will also be looking for academic articles of inter
 * https://science.slashdot.org/story/17/09/11/2126242/moving-every-half-hour-could-help-limit-effects-of-sedentary-lifestyle-says-study
 * https://www.makeuseof.com/tag/4-health-issues-sitting-long-avoid/
 
-</details>
+### MacKenzie Method
+
+* https://en.wikipedia.org/wiki/McKenzie_method
+* https://www.mckenzieinstitute.org/
+* https://www.physio-pedia.com/Mckenzie_Method
+* https://www.wellandgood.com/good-sweat/mckenzie-method/
+* https://www.spineone.com/blog/mckenzie-method-back-pain/
+
+<img src="https://www.healthylifestylezone.com/wp-content/uploads/2015/08/3-effective-ways-to-relieve-sciatica-pain-fast-1.jpg" style=width:100% >
 
 
-***
+## Clinics
 
-# <center title="hello!" ><a href=javascript:window.scrollTo(0,0); style=text-decoration:none; > ❦ </a></center>
-
-
-###  San Mateo’s Adapted Physical Education Wellness program
+### San Mateo’s Adapted Physical Education Wellness program
 
 * https://collegeofsanmateo.edu/adaptedpe/index.asp
 * https://collegeofsanmateo.edu/adaptedpe/faculty.asp
 * https://collegeofsanmateo.edu/adaptedpe/docs/AdaptedPEGeneral.pdf
 * https://www.smdailyjournal.com/news/local/help-for-the-disabled/article_80850c1b-7dfb-539d-8434-af8dc8fe7659.html
+
 
 Thoughts
 
@@ -105,3 +111,9 @@ Thoughts
 * Google Fit data
 * getluna.com
 * Looking for room-based motion detector. Voices message to do a random routine when I am near
+
+
+***
+
+# <center title="hello!" ><a href=javascript:window.scrollTo(0,0); style=text-decoration:none; > ❦ </a></center>
+
