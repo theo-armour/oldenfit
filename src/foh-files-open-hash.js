@@ -12,11 +12,17 @@ FOH.urlDefaultFile = "README.md";
 FOH.regexImages = /\.(jpe?g|png|gif|webp|ico|svg|bmp)$/i;
 FOH.regexHtml = /\.(htm?l)$/i;
 
-FOH.onHashChange = function() {
+FOH.onHashChange = function() { // to be simplified
 
 	const url = !location.hash ? FOH.urlDefaultFile : location.hash.slice( 1 );
 
-	FOH.requestFileDecider( "https://theo-armour.github.io/oldenfit/" + url );
+	//console.log('url', url);
+
+	const file = url.endsWith("/") ? "README.md" : "";
+
+	FOH.urlPath = ""; //"https://theo-armour.github.io/oldenfit/"; // `https://${COR.repo}/`;
+
+	FOH.requestFileDecider( FOH.urlPath + url + file );
 
 };
 

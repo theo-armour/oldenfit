@@ -55,7 +55,8 @@ FGA.onHashChange = function () {
 
 };
 
-FGA.fetchTree = function(path = "") {
+FGA.fetchTree = function (path = "") {
+
 	FGA.setBreadcrumbs(path);
 
 	const url = `https://api.github.com/repos/${COR.user}/${COR.repo}/contents/${path}`;
@@ -74,18 +75,20 @@ FGA.setBreadcrumbs = function(path) {
 	//console.log( "folders", folders );
 
 	const htmFolders = folders
-		.map(
-			(folder, i) =>
-				`<a href=JavaScript:FGA.fetchTree("${folders
-					.slice(0, i)
-					.join("/")}"); >${folder}</a> &raquo; `
-		)
-		.join("");
+		.map((folder, i) => {
+			//console.log('folder', folder);
+			const str = folders.slice(0, i + 1).join("/");
+			//console.log( 'str', str );
+
+			return `<a href="#${ str }/"); >${decodeURI( folder ) }</a> &raquo; `;
+
+		} ).join("");
+
 
 	FGAdivBreadcrumbs.innerHTML = `
 		<div style="margin:0.2rem 1rem;" >
 			<b>
-				<a href=JavaScript:FGA.fetchTree(); title="Click to return to home folder" >
+				<a href=# title="Click to return to home folder" >
 					${COR.pathRepo ? COR.pathRepo : "<span style=font-size:28px >&#x2302</span>"}
 				</a> &raquo;
 				${htmFolders}
@@ -108,12 +111,14 @@ FGA.callbackGitHubPathFileNames = function(items) {
 
 	FGAdivFiles.innerHTML = FGA.getFiles(items);
 
-	const name = location.hash
+	let name = location.hash
 		? location.hash
 				.slice(1)
 				.split("/")
 				.pop()
 		: "README.md";
+
+	name = name ? name : "README.md";
 	//console.log( "name", name );
 
 	const divs = FGAdivFiles.querySelectorAll("div.FGAitem");
