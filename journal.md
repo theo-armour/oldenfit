@@ -1,9 +1,10 @@
 # Journal
 
-# 2019-11-07
+## 2019-11-07
 
 * Installed latest TooToo CMS - fingers crossed it's OK
 * Need to think about adding diet and nutrition
+* Add McKenzie method links
 
 ## 2019-11-04
 
