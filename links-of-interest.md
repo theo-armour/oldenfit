@@ -84,10 +84,6 @@ _This is just a quick start. Will also be looking for academic articles of inter
 
 # <center title="hello!" ><a href=javascript:window.scrollTo(0,0); style=text-decoration:none; > ❦ </a></center>
 
-<style>
-summary { font-weight: bold; font-size: 1.5rem; }
-</style>
-
 
 ###  San Mateo’s Adapted Physical Education Wellness program
 
