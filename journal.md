@@ -1,5 +1,15 @@
 # Journal
 
+## 2020-01-01
+
+### Old people
+
+* accept all the changes that have occurred in the past, but do not anticipate any further changes
+* Any changes in the future will be catastrophic and require huge change but until then the state quo is good
+* Anticipate that others will look after them bet sometime in the future at no cost
+* Have nothing to offer, nothing to do, nothing to help, no projects
+
+
 ## 2019-11-07
 
 * Installed latest TooToo CMS - fingers crossed it's OK
@@ -18,7 +28,7 @@
 * create an email group called oldnfit@ta.groups.io
 * invite members to people to join as members
 * send a message every week
-* offer to pay people to read message
+* offer to pay people to read messages
 * Offer a $200 retainer payable via PayPal or Venmo
 * To be recharged whenever requested - suggest after 10 to 20 readings
 * Draft invite message

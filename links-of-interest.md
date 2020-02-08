@@ -63,7 +63,20 @@ _This is just a quick start. Will also be looking for academic articles of inter
 </details>
 
 
-### Articles on sitting
+### Exercise
+
+* https://www.nytimes.com/2019/10/16/well/move/exercise-advice-for-surviving-cancer-and-maybe-avoiding-it.html
+	* New guidelines say exercise may help cancer patients live longer, or help you avoid getting cancer in the first place
+* https://www.nytimes.com/2019/09/04/well/move/aerobic-fitness-may-trump-strength-for-metabolic-health.html
+	* Endurance affects metabolism substantially more than muscular strength does, a new study suggests.
+	
+### Exercises
+
+* https://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout/
+	* guidelines for how to put the newest fitness research into practice.
+* https://well.blogs.nytimes.com/2014/10/24/the-advanced-7-minute-workout/
+
+### Sitting
 
 
 * https://www.nytimes.com/2011/04/17/magazine/mag-17sitting-t.html?_r=1&src=me&ref=homepage
@@ -87,6 +100,11 @@ _This is just a quick start. Will also be looking for academic articles of inter
 
 <img src="https://www.healthylifestylezone.com/wp-content/uploads/2015/08/3-effective-ways-to-relieve-sciatica-pain-fast-1.jpg" style=width:100% >
 
+
+### Walking
+
+* https://www.nytimes.com/2019/10/30/well/move/how-walking-might-affect-our-sleep.html
+	* Among middle-aged men and women who took about 7,000 steps a day, covering even a little extra ground was tied to better sleep.
 
 ## Clinics
 
