@@ -1,5 +1,9 @@
 # Avoid Bad Food
 
+* https://www.wcrf.org/dietandcancer
+* https://www.wcrf.org/dietandcancer/changes-since-2007-second-expert-report
+
+
 ## Nitrites
 
 * https://en.wikipedia.org/wiki/Nitrite
