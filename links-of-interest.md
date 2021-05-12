@@ -1,4 +1,3 @@
-# Links of interest
 # Links of Interest
 
 
@@ -8,14 +7,7 @@ _This is just a quick start. Will also be looking for academic articles of inter
 
 <summary>Public institutes</summary>
 
-### https://www.ncoa.org/
 
-* https://www.ncoa.org/center-for-healthy-aging/basics-of-evidence-based-programs/physical-activity-programs-for-older-adults/
-
-
-### https://www.who.int/
-
-* https://www.who.int/dietphysicalactivity/factsheet_olderadults/en/
 
 ### https://www.nhs.uk/
 
@@ -69,7 +61,7 @@ _This is just a quick start. Will also be looking for academic articles of inter
 	* New guidelines say exercise may help cancer patients live longer, or help you avoid getting cancer in the first place
 * https://www.nytimes.com/2019/09/04/well/move/aerobic-fitness-may-trump-strength-for-metabolic-health.html
 	* Endurance affects metabolism substantially more than muscular strength does, a new study suggests.
-	
+
 ### Exercises
 
 * https://well.blogs.nytimes.com/2013/05/09/the-scientific-7-minute-workout/
